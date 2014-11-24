@@ -1,0 +1,7 @@
+soccersim.base
+soccersim.gui
+soccersim.team
+soccersim.team.brute
+soccersim.team.diagonal
+soccersim.team.random
+soccersim.test

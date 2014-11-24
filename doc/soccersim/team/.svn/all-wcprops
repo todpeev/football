@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/6/trunk/doc/soccersim/team
+END
+Player.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6/trunk/doc/soccersim/team/Player.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/doc/soccersim/team/package-frame.html
+END
+Team.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/6/trunk/doc/soccersim/team/Team.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/trunk/doc/soccersim/team/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6/trunk/doc/soccersim/team/package-tree.html
+END
+MoveStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6/trunk/doc/soccersim/team/MoveStrategy.html
+END
+PlayerNeighborState.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/6/trunk/doc/soccersim/team/PlayerNeighborState.html
+END

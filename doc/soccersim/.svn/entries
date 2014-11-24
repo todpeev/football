@@ -1,0 +1,40 @@
+8
+
+dir
+6
+https://java-soccersimulator.googlecode.com/svn/trunk/doc/soccersim
+https://java-soccersimulator.googlecode.com/svn
+
+
+
+2007-09-29T19:58:51.213705Z
+6
+luckyllama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f336c3f6-363b-0410-b222-f1b7b3a1f9c5
+
+test
+dir
+
+gui
+dir
+
+team
+dir
+
+base
+dir
+

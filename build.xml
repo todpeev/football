@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="soccersim-java" default="all">
+  
+  
+  <property file="build.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="128m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/rcs/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/.sbas/**"/>
+    <exclude name="**/.IJI.*/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <include name="**/?*.properties"/>
+    <include name="**/?*.xml"/>
+    <include name="**/?*.gif"/>
+    <include name="**/?*.png"/>
+    <include name="**/?*.jpeg"/>
+    <include name="**/?*.jpg"/>
+    <include name="**/?*.html"/>
+    <include name="**/?*.dtd"/>
+    <include name="**/?*.tld"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.6" value="${jdk.home.1.6}/bin"/>
+  <path id="jdk.classpath.1.6">
+    <fileset dir="${jdk.home.1.6}">
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/rt.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/sunpkcs11.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.6}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.6}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.6"/>
+  
+  
+  <!-- Global Libraries -->
+  
+  <path id="library.junit-4.4.classpath">
+    <pathelement location="/home/frank/apps/junit4.4/junit-4.4.jar"/>
+  </path>
+  
+  <!-- Modules -->
+  
+  
+  <!-- Module soccersim-java -->
+  
+  <dirname property="module.soccersim-java.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.soccersim-java" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.soccersim-java" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.soccersim-java" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.soccersim-java" value="${compiler.args}"/>
+  
+  <property name="soccersim-java.output.dir" value="${module.soccersim-java.basedir}/bin/production/soccersim-java"/>
+  <property name="soccersim-java.testoutput.dir" value="${module.soccersim-java.basedir}/bin/test/soccersim-java"/>
+  
+  <path id="soccersim-java.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="soccersim-java.module.classpath">
+    <path refid="${module.jdk.classpath.soccersim-java}"/>
+    <path refid="library.junit-4.4.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.soccersim-java">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.soccersim-java">
+    <patternset refid="excluded.from.module.soccersim-java"/>
+  </patternset>
+  
+  <path id="soccersim-java.module.sourcepath">
+    <dirset dir="${module.soccersim-java.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.soccersim-java" depends="compile.module.soccersim-java.production,compile.module.soccersim-java.tests" description="Compile module soccersim-java"/>
+  
+  <target name="compile.module.soccersim-java.production" description="Compile module soccersim-java; production classes">
+    <mkdir dir="${soccersim-java.output.dir}"/>
+    <javac destdir="${soccersim-java.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.soccersim-java}/javac">
+      <compilerarg line="${compiler.args.soccersim-java}"/>
+      <bootclasspath refid="soccersim-java.module.bootclasspath"/>
+      <classpath refid="soccersim-java.module.classpath"/>
+      <src refid="soccersim-java.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.soccersim-java"/>
+    </javac>
+    
+    <copy todir="${soccersim-java.output.dir}">
+      <fileset dir="${module.soccersim-java.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.soccersim-java.tests" depends="compile.module.soccersim-java.production" description="compile module soccersim-java; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.soccersim-java" description="cleanup module">
+    <delete dir="${soccersim-java.output.dir}"/>
+    <delete dir="${soccersim-java.testoutput.dir}"/>
+  </target>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.soccersim-java" description="cleanup all"/>
+  
+  <target name="all" depends="init, clean, compile.module.soccersim-java" description="build all"/>
+</project>

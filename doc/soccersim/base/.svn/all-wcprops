@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/6/trunk/doc/soccersim/base
+END
+Field.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/6/trunk/doc/soccersim/base/Field.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/doc/soccersim/base/package-frame.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/trunk/doc/soccersim/base/package-summary.html
+END
+GameHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/6/trunk/doc/soccersim/base/GameHandler.html
+END
+MoveDirection.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/doc/soccersim/base/MoveDirection.html
+END
+DefendingSide.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/doc/soccersim/base/DefendingSide.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6/trunk/doc/soccersim/base/package-tree.html
+END
+FieldPositionState.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6/trunk/doc/soccersim/base/FieldPositionState.html
+END
+Score.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/6/trunk/doc/soccersim/base/Score.html
+END

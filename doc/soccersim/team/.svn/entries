@@ -1,0 +1,121 @@
+8
+
+dir
+6
+https://java-soccersimulator.googlecode.com/svn/trunk/doc/soccersim/team
+https://java-soccersimulator.googlecode.com/svn
+
+
+
+2007-09-29T19:58:51.213705Z
+6
+luckyllama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f336c3f6-363b-0410-b222-f1b7b3a1f9c5
+
+Player.html
+file
+
+
+
+
+2007-10-02T17:58:42.770000Z
+6f68a570f20ddff5e75c9adceceb987a
+2007-09-29T19:58:51.213705Z
+6
+luckyllama
+
+random
+dir
+
+brute
+dir
+
+package-frame.html
+file
+
+
+
+
+2007-10-02T17:58:42.777000Z
+f9c1868400f2b4c2b979e837229efd53
+2007-09-29T19:58:51.213705Z
+6
+luckyllama
+
+Team.html
+file
+
+
+
+
+2007-10-02T17:58:42.784000Z
+bd3b35cd4db3d1fd2ba948a570ceb2ca
+2007-09-29T19:58:51.213705Z
+6
+luckyllama
+
+package-summary.html
+file
+
+
+
+
+2007-10-02T17:58:42.836000Z
+74b38d1f0341aa53ef793e1a9b40b884
+2007-09-29T19:58:51.213705Z
+6
+luckyllama
+
+package-tree.html
+file
+
+
+
+
+2007-10-02T17:58:42.843000Z
+d585da46c2a349314df75818b03c0a07
+2007-09-29T19:58:51.213705Z
+6
+luckyllama
+
+MoveStrategy.html
+file
+
+
+
+
+2007-10-02T17:58:42.849000Z
+e5013eadf92abe41044717616de68e12
+2007-09-29T19:58:51.213705Z
+6
+luckyllama
+
+diagonal
+dir
+
+PlayerNeighborState.html
+file
+
+
+
+
+2007-10-02T17:58:42.887000Z
+17800e2dcc179c9d08176b09d10e773e
+2007-09-29T19:58:51.213705Z
+6
+luckyllama
+

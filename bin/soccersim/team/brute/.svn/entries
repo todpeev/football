@@ -1,0 +1,52 @@
+8
+
+dir
+6
+https://java-soccersimulator.googlecode.com/svn/trunk/soccersim/team/brute
+https://java-soccersimulator.googlecode.com/svn
+
+
+
+2007-09-28T19:47:39.939896Z
+1
+luckyllama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f336c3f6-363b-0410-b222-f1b7b3a1f9c5
+
+BruteTeam.java
+file
+
+
+
+
+2007-10-02T18:05:05.456000Z
+84648fd6bba22569844b6dc3df0ec73a
+2007-09-28T19:47:39.939896Z
+1
+luckyllama
+
+BrutePlayer.java
+file
+
+
+
+
+2007-10-02T18:05:05.460000Z
+541cb3dfba15b6a9731ce4db9f32e2f9
+2007-09-28T19:47:39.939896Z
+1
+luckyllama
+

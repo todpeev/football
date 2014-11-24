@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/5/trunk/soccersim/base
+END
+Field.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/8/trunk/soccersim/base/Field.java
+END
+MoveDirection.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/soccersim/base/MoveDirection.java
+END
+GameHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/8/trunk/soccersim/base/GameHandler.java
+END
+DefendingSide.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/soccersim/base/DefendingSide.java
+END
+FieldPositionState.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/soccersim/base/FieldPositionState.java
+END
+Score.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/5/trunk/soccersim/base/Score.java
+END

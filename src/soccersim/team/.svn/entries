@@ -1,0 +1,85 @@
+8
+
+dir
+6
+https://java-soccersimulator.googlecode.com/svn/trunk/soccersim/team
+https://java-soccersimulator.googlecode.com/svn
+
+
+
+2007-09-28T19:47:39.939896Z
+1
+luckyllama
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f336c3f6-363b-0410-b222-f1b7b3a1f9c5
+
+random
+dir
+
+brute
+dir
+
+Team.java
+file
+
+
+
+
+2007-10-02T18:05:06.755000Z
+55b479c07881b19f212ed6a4459889e8
+2007-09-28T19:47:39.939896Z
+1
+luckyllama
+
+MoveStrategy.java
+file
+
+
+
+
+2007-10-02T18:05:06.759000Z
+772f74941fac5dd63259fef4b33faf62
+2007-09-28T19:47:39.939896Z
+1
+luckyllama
+
+PlayerNeighborState.java
+file
+
+
+
+
+2007-10-02T18:05:06.763000Z
+6943b284b2c203d8b789cdb6f2a4a700
+2007-09-28T19:47:39.939896Z
+1
+luckyllama
+
+Player.java
+file
+
+
+
+
+2007-10-02T18:05:06.768000Z
+bac32361205bf880aa78545534a62c1f
+2007-09-28T19:47:39.939896Z
+1
+luckyllama
+
+diagonal
+dir
+
